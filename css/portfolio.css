@@ -109,6 +109,7 @@ a:hover {
 .button {
 	border: 2px solid #019cdb;
 	color: #019cdb;
+	background-color: transparent;
 	display: inline-block; /* To wrap the border just around the content */
 	font-size: 20px;
 	margin-top: 12px;
@@ -159,6 +160,17 @@ a:hover {
 
 .img-wrapper {
 	width: 60%;
+}
+
+.input-field {
+	width: 80%;
+    max-width: 700px;
+    margin: 1%;
+    line-height: 2em;
+    padding: 6px;
+    font-size: 1em;
+    border-radius: 3px;
+    border: none;
 }
 
 .flex {
