@@ -11,9 +11,9 @@ $( document ).ready(function() {
 			},
 			dataType: "json"
 		}).error(function(x, status, error){
-			alert('Uh oh, something went wrong. Please try again.');
+			alert('Something went wrong! Try again.');
 		}). success(function(data, status) {
-			alert('Thank you for your message. Kitty will get back to you soon.');
+			alert('Thanks!');
 			$('form').find('.email, .message').val('');
 		});
 	});
