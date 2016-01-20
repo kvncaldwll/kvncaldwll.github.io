@@ -4,29 +4,44 @@
     	<title>HTML5/CSS3 Tutorial</title>
     	<link rel="stylesheet" type="text/css" href="./css/portfolio.css">
     </head>
-    
     <body class="default">
-     <header class="header">
-         <nav class="nav">
-             <ul>
-                 <li class="nav-item"><a href="#">Home</a></li>
-                 <li class="nav-item"><a href="#">Gallery</a></li>
-                 <li class="nav-item"><a href="#">Contact</a></li>
-             </ul>
-         </nav>
-     </header>
-
-     <section>
-         <img src="https://goo.gl/RG3GtK" />
-         <img src="http://placekitten.com/g/600/600" />
-         <h1 class="main title ">Hello I'm Kitty</h1>
-         <h2 class="sub title">I love creating code</h2>
-     </section>
-
-     <footer>
-         <h3 class="footer-sub title">About</h3>
-         <a href="./cv.pdf" download="Kitty's CV" class="button">Download My CV</a>
-     </footer>
+    <div class="main-wrapper">
+        <header class="header">
+             <nav class="nav">
+                 <ul>
+                     <li class="nav-item"><a href="#">Home</a></li>
+                     <li class="nav-item"><a href="#">Scratching Post</a></li>
+                     <li class="nav-item"><a href="#">Milk Bowl</a></li>
+                 </ul>
+             </nav>
+        </header>
+        <div class="flex column">
+             <section>
+                 <div class="flex column">
+                     <img class="logo" src="https://goo.gl/RG3GtK" />
+                 </div>
+                 <div class="flex column">
+                    <div class="img-wrapper">
+                        <img class="main-img circle" src="http://placekitten.com/g/600/600" />
+                    </div>
+                 </div>
+                 <div class="titles flex column">
+                     <h1 class="main title ">Hello I'm Kat</h1>
+                     <h2 class="sub title">I love clawing @code</h2>
+                 </div>
+             </section>
+         </div>
+     </div>
+     <div class="flex column">
+         <footer class="footer">
+             <div class="flex">
+                 <div class="line"></div>
+                    <h3 class="footer-sub title">About</h3>
+                 <div class="line"></div>
+             </div>
+             <a href="./cv.pdf" download="Kitty's CV" class="button">Download My Kitty Litter</a>
+         </footer>
+     </div>
    </body>
 
 </html>
