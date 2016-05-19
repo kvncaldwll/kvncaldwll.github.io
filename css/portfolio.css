@@ -93,7 +93,6 @@ a:hover {
     text-align: center;
     width: 100%;
     margin-bottom: 2%;
-    padding-top: 18px;
 }
 
 .row {
@@ -120,6 +119,7 @@ a:hover {
 
 .main-wrapper {
     min-height: calc(100vh - 126px);
+    padding-bottom: 5%;
 }
 
 .titles {
