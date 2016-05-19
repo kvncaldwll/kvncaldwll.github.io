@@ -1,34 +1,30 @@
 <html>
     <head>
-    	<title>Feed Me</title>
+        <title>Contact Me</title>
         <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
     </head>
-
-    <body class="default">
+    <body>
         <header class="header">
-             <nav class="nav">
-                 <ul>
-                     <li class="nav-item"><a href="./index.html">Home</a></li>
-                     <li class="nav-item"><a href="./gallery.html">Scratching Post</a></li>
-                     <li class="nav-item"><a href="./contact.html">Milk Bowl</a></li>
-                 </ul>
-             </nav>
+            <nav class="nav">
+                <ul>
+                    <li class="nav-item"><a href="./index.html">M<span style="font-size:.8em">AIN</span></a></li>
+                    <li class="nav-item"><a href="./projects.html">P<span style="font-size:.8em">ROJECTS</span></a></li>
+                    <li class="nav-item"><a href="./contact.html">C<span style="font-size:.8em">ONTACT</span></a></li>
+                </ul>
+            </nav>
         </header>
-
         <section>
-            <h2 class="sub title">Feed the Needy Kitty</h2>
-            <form class="flex column" action="http://formspree.io/kevin.caldwell@students.makeschool.com" method="POST">
-                <input class="email input-field" type="email" placeholder="Your email" name="_replyto" required />
-                <textarea class="message input-field" rows="10" cols="20" placeholder="Type your message here" name="message" required ></textarea>
-                
-                <input type="hidden" name="_subject" value="Email from Kitty's Portfolio!" />
+            <h2 class="title sub">Contact Me</h2>
+            <form id ="form" class="flex column" action="https://formspree.io/kevin.caldwell@students.makeschool.com" method="POST">
+                <input id="js-email" class="input-field" name="_replyTo" type="email" placeholder="Your email" required/>
+                <textarea id="js-message" class="input-field" name="message" rows="10" cols="20" placeholder="Send me a mesage" required></textarea>
+                <!-- subject for formspree.io email; _gotcha to catch email spam bots -->
+                <input type="hidden" name="_subject" value="Email from Kevin's Site" />
                 <input type="text" name="_gotcha" style="display:none" />
-                
-                <button class="button" type="submit">Send</button>
+                <button type="submit" class="button">Send</button>
             </form>
         </section>
-
-        <script src="./vendor/jquery-2.2.0.min.js"></script>
+        <script src="./vendor/jquery-2.2.3.min.js"></script>
         <script src="./js/contact.js"></script>
     </body>
 </html>
