@@ -33,6 +33,7 @@ a:hover {
     list-style: none;
     margin-right: 12px;
     letter-spacing: 2px;
+    font-weight: bold;
 }
 
 .title {
@@ -43,15 +44,17 @@ a:hover {
 }
 
 .main {
-    font-size: 5em;
+    font-size: 4em;
+    color: #ffa500;
 }
 
 .sub {
-    font-size: 3em;
+    font-size: 2em;
+    color: #658779;
 }
 
 .footer-sub {
-    font-size: 1.2em;
+    font-size: 1em;
 }
 
 .button {
