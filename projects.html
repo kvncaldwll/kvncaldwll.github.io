@@ -1,8 +1,11 @@
 <html>
     <head>
         <title>My Projects</title>
+        <link rel="stylesheet" type="text/css" href="./vendor/justified/justifiedGallery.min.css">
+        <link rel="stylesheet" type="text/css" href="./vendor/swipebox/css/swipebox.min.css">
         <link rel="stylesheet" type="text/css" href="./css/portfolio.css">
     </head>
+
     <body>
         <header class="header">
             <nav class="nav">
@@ -13,7 +16,39 @@
                 </ul>
             </nav>
         </header>
+
+        <section class="gallery-container">
+            <h2 class="sub title" style="margin-top: 5%; margin-bottom: 20px; color: #ffa500">Project xBAND</h2>
+            <div id="xBAND">
+                <a title="Prototype 2" href="./img/xband_prototype2.JPG">
+                    <img alt="Prototype 2" src="./img/xband_prototype2.JPG"/>
+                </a>
+            </div>
+
+            <h2 class="sub title" style="margin-top: 5%; margin-bottom: 20px; color: #ffa500">Viewtiful</h2>
+            <div id="viewtiful">
+                <a title="App Icon" href="./img/viewtiful_icon.png">
+                    <img alt="App Icon" src="./img/viewtiful_icon.png"/>
+                </a>
+                <a title="3D Printed Case" href="./img/viewtiful_3dprint.JPG">
+                    <img alt="3D Printed Case" src="./img/viewtiful_3dprint.JPG"/>
+                </a>
+                <a title="Internals" href="./img/viewtiful_raw.JPG">
+                    <img alt="Internals" src="./img/viewtiful_raw.JPG"/>
+                </a>
+            </div>
+
+            <h2 class="sub title" style="margin-top: 5%; margin-bottom: 20px; color: #ffa500">Selfie Swipey</h2>
+            <div id="ss">
+                <a title="sample photo" href="./img/ss_sample.jpg">
+                    <img alt="sample photo" src="./img/ss_sample.jpg"/>
+                </a>
+            </div>
+        </section>
+
         <script src="./vendor/jquery-2.2.3.min.js"></script>
+        <script src="./vendor/justified/jquery.justifiedGallery.min.js"></script>
+        <script src="./vendor/swipebox/js/jquery.swipebox.min.js"></script>
         <script src="./js/portfolio.js"></script>
     </body>
 </html>
